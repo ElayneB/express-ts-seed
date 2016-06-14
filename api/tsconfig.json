@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": false,
+        "outDir": "built"
+    },
+    "filesGlob": [
+        "./typings/index.d.ts",
+        "./src/**/*.ts"
+    ],
+    "files": [
+        "./typings/index.d.ts",
+        "./src/config.ts",
+        "./src/global_middleware/log.middleware.ts",
+        "./src/modules/index/index.main.ts",
+        "./src/server.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

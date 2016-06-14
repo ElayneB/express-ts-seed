@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "glob": "registry:npm/glob#6.0.0+20160211003958"
+  },
+  "globalDependencies": {
+    "express": "registry:dt/express#4.0.0+20160317120654",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#0.0.0+20160602151406",
+    "node": "registry:env/node#6.0.0+20160610031852"
+  }
+}
