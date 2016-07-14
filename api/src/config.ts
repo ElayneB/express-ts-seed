@@ -1,3 +1,2 @@
-export const clientDir = '/../../client';
-export const globalMiddlewareDir = './globalMiddlewareDir';
-export const modules = './modules/**/*.main.js'
+export const globalMiddlewareDir = './global_middleware/**/*.middleware.js';
+export const modules = './modules/**/*.router.js'

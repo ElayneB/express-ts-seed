@@ -1,5 +1,7 @@
 import * as express from 'express';
 
-export function log(req: express.Request, res: express.Request, next: Function) {
+export default log
+function log(req: express.Request, res: express.Response, next: Function) {
     console.log(req);
+    next();
 }

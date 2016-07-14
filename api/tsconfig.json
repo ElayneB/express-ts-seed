@@ -17,7 +17,7 @@
         "./typings/index.d.ts",
         "./src/config.ts",
         "./src/global_middleware/log.middleware.ts",
-        "./src/modules/index/index.main.ts",
+        "./src/modules/index/index.router.ts",
         "./src/server.ts"
     ],
     "atom": {
